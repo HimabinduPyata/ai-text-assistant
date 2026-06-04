@@ -37,7 +37,6 @@ AI is transforming multiple industries by improving efficiency through automatio
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/your-username/ai-text-assistant.git
 cd ai-text-assistant
@@ -45,9 +44,11 @@ cd ai-text-assistant
 ---
 
 ### 2. Set environment variable
+```bash
 export OPENAI_API_KEY="your_api_key_here"
 
 ---
 
 ### 3. Run the project
+```bash
 python3 -m streamlit run app.py
