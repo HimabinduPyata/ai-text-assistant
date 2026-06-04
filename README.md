@@ -37,22 +37,8 @@ AI is transforming industries like healthcare, education, and finance by improvi
 ```bash
 pip install openai
 
----
-
-## Set environment variable
-
+### 2. Set environment variable
 export OPENAI_API_KEY="your_api_key_here"
 
----
-
-## Run the project
-
+### 3. Run the project
 python3 summarizer.py
-
----
-
-##Project Structure
-
-ai-text-assistant/
-│── summarizer.py
-│── README.md
