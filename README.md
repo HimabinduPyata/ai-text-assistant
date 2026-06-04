@@ -1,18 +1,58 @@
-# AI Text Assistant
+# AI Text Assistant (Summarizer Tool)
 
-A beginner AI project built using Python and OpenAI API.
+A simple Python-based AI tool that summarizes long text using OpenAI’s GPT model.
 
-## What it does
-- Takes user input
-- Sends it to an AI model
-- Returns a response (like summary or improved text)
+This project demonstrates how to integrate LLM APIs into a real-world application using clean code and environment variables.
 
-## Tech Stack
+---
+
+## ✨ Features
+- Summarizes long paragraphs into short, clear text
+- Uses OpenAI GPT-4o mini model
+- Command-line interface (CLI)
+- Secure API key handling using environment variables
+
+---
+
+## 🧠 Example
+
+### Input:
+AI is transforming the world. It is used in healthcare, education, and finance...
+
+### Output:
+AI is transforming industries like healthcare, education, and finance by improving efficiency and automation.
+
+---
+
+## 🛠️ Tech Stack
 - Python
 - OpenAI API
 - Git & GitHub
 
-## How to run
+---
 
+## ⚙️ Setup Instructions
+
+### 1. Install dependencies
 ```bash
-python3 app.py
+pip install openai
+
+---
+
+## Set environment variable
+
+export OPENAI_API_KEY="your_api_key_here"
+
+---
+
+## Run the project
+
+python3 summarizer.py
+
+---
+
+##Project Structure
+
+ai-text-assistant/
+│── summarizer.py
+│── README.md
