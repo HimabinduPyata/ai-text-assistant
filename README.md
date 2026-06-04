@@ -34,13 +34,14 @@ AI is transforming industries like healthcare, education, and finance by improvi
 ## ⚙️ Setup Instructions
 
 ### 1. Install dependencies
-```bash
 pip install openai
 
+---
+
 ### 2. Set environment variable
-```bash
 export OPENAI_API_KEY="your_api_key_here"
 
+---
+
 ### 3. Run the project
-```bash
 python3 summarizer.py
