@@ -55,3 +55,14 @@ export OPENAI_API_KEY="your_api_key_here"
 ```bash
 python3 -m streamlit run app.py
 ```
+
+---
+
+## 📚 Key Takeaways
+
+During this project, I learned how to:
+- Build a Python application that interacts with an LLM API.
+- Create a simple web interface using Streamlit.
+- Secure sensitive credentials with environment variables.
+- Structure an application by separating frontend and backend logic.
+- Manage and document a project using Git and GitHub.
